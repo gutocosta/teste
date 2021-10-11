@@ -1,7 +1,6 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - before:
-    init: |
+  - before: |
       mkdir ~gitpod/bin
   - init: |
       curl -L https://github.com/grafana/k6/releases/download/v0.34.1/k6-v0.34.1-linux-amd64.tar.gz -o /tmp/k6-v0.34.1-linux-amd64.tar.gz
